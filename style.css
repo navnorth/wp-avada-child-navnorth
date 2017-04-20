@@ -7,9 +7,9 @@ Template: Avada
 Version: 0.1.0
 Text Domain:  Avada
 */
-.wpcf7-submit {
-    border-width: 0px;
-    border-color: #ffffff;
+.wpcf7 .wpcf7-form .wpcf7-submit {
+    border-width: 0px !important;
+    border-color: #ffffff !important;
     background: #333333;
     width: auto;
     margin: 0 auto;
@@ -24,4 +24,4 @@ Text Domain:  Avada
     color: #fff;
     transition: all .2s;
 }
-.wpcf7-submit:hover, .wpcf7-submit:active { background: #222222; }
+.wpcf7 .wpcf7-form .wpcf7-submit:hover, .wpcf7 .wpcf7-form .wpcf7-submit:active { background: #222222; }
