@@ -24,4 +24,4 @@ Text Domain:  Avada
     color: #fff;
     transition: all .2s;
 }
-.wpcf7 .wpcf7-form .wpcf7-submit:hover, .wpcf7 .wpcf7-form .wpcf7-submit:active { background: #222222; }
+.wpcf7 .wpcf7-form .wpcf7-submit:hover, .wpcf7 .wpcf7-form .wpcf7-submit:active { color:#ffffff; background: #222222; }
