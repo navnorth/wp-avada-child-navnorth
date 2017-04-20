@@ -7,3 +7,21 @@ Template: Avada
 Version: 0.1.0
 Text Domain:  Avada
 */
+.wpcf7-submit {
+    border-width: 0px;
+    border-color: #ffffff;
+    background: #333333;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 13px 29px;
+    line-height: 17px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-sizing: border-box;
+    color: #fff;
+    transition: all .2s;
+}
+.wpcf7-submit:hover, .wpcf7-submit:active { background: #222222; }
