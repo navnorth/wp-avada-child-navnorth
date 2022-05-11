@@ -54,3 +54,6 @@ function my_NEWS_rewrite_flush() {
     my_NEWS_default_post_type();
     flush_rewrite_rules();
 }
+
+// Do not send notifications on plugin updates
+add_filter( 'auto_plugin_update_send_email', '__return_false' );
